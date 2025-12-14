@@ -15,8 +15,7 @@ np.random.seed(42)
 tf.random.set_seed(42)
 
 # Load your dataset
-# REPLACE with the correct path to your downloaded 'energydata_complete.csv'
-df = pd.read_csv('energydata_complete.csv')
+df = pd.read_csv('C:\\Users\\ibrah\\Downloads\\energydata_complete.csv')
 
 # --- 2. EXPLORATORY DATA ANALYSIS & PREPROCESSING ---
 print(f"Dataset shape: {df.shape}")
